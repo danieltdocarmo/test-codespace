@@ -10,4 +10,9 @@ public class BitchController {
     public String getBitch(){
         return "Hey Bitch";
     }
+
+    @GetMapping("/hi")
+    public String hi(){
+        return "Hi";
+    }
 }
